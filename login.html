@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Log in | Pitchside</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Pitchside</a></h1>
+    </header>
+
+    <main>
+      <h2>Log in</h2>
+      <form action="Pitchside/login" method="POST">
+        <p>
+          <label for="email">Email</label><br />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          />
+        </p>
+        <p>
+          <label for="password">Password</label><br />
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required
+          />
+        </p>
+        <button type="submit">Log in</button>
+      </form>
+      <p><a href="forgot-password.html">Forgot your password?</a></p>
+      <p>New here? <a href="signup.html">Create an account</a></p>
+    </main>
+  </body>
+</html>
